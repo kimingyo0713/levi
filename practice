@@ -1,0 +1,15 @@
+package view;
+
+import model.People;
+
+public class Output implements PhonebookView {
+
+	@Override
+	public void display() {
+		People[] pArr = data.pArr;
+
+		System.out.println("출력 기능");
+		if(pArr == null) {
+		}
+	}
+}
